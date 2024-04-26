@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BOOKAPP</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="container-fluid card pt-4" style = "width:40rem;">         <!-- pt for margin top  -->
+    
+    <h1 class="bg-success text-white text-center">Book Registration</h1>
+    <form action= "register" method="post">   
+     <table class="table table-hover">
+       <tr>
+         <td> Book Name  </td>
+         <td> <input type = "text" name="bookName"> </td>
+       </tr>
+       <tr>
+         <td> Book Edition  </td>
+         <td> <input type = "text" name="bookEdition"> </td>
+       </tr>
+       <tr>
+         <td> Book Price   </td>
+         <td> <input type = "text" name="bookPrice"> </td>
+       </tr>
+       <tr>
+         <td><input type = "submit" value="Register"></td>
+         <td> <input type = "reset" value="Cancel"> </td>
+       </tr>
+    </table>
+    
+    <a href='bookList' style = "text-decoration:none">Book List</a>
+    
+    </form>
+</body>
+</html>
